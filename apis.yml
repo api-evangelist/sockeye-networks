@@ -1,8 +1,23 @@
 aid: sockeye-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sockeye-networks.png
 name: Sockeye Networks
-description: Sockeye Networks is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Sockeye Networks was a network-management software company founded in 2000 and headquartered
+  in Waltham, Massachusetts. It provided intelligent internet routing and connectivity-optimization
+  services, combining real-time global internet traffic data with customer-specific measurements to
+  optimize enterprise IP connectivity for improved network performance, efficiency, and visibility. The
+  company appears to be defunct or long-inactive; no active website domain resolves and no public
+  developer/API surface, documentation, or specifications could be found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/sockeye-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +25,26 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: inactive
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Networking
+- Internet
+- Routing
+- Network Management
+- Connectivity
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
